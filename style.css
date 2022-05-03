@@ -4,45 +4,116 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to right, #002333, #159A9C);
 }
 
 img {
     border-radius: 50%;
-    height: 150px;
-    width: auto;
+    height: 200px;
+    width: 200px;
+    margin-top: 35px;
 }
 
 .container{
     width: 100%;
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
-    
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+   
 }
 
+ 
 .card1{
-    display: flex;
+    margin: 20px;
     width: 300px;
-    background-color: cornflowerblue;
+    height: 500px;
+    background-color: #DEEFE7;
     border-radius: 5%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    transform: translate(0px);
+    animation: float 5s ease-in-out infinite;
     
 }
+
+
 
 .card2{
-    display: flex;
+    margin: 20px;
     width: 300px;
-    background-color: cornflowerblue;
+    height: 500px;
+    background-color: #DEEFE7;
     border-radius: 5%;
-    
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    transform: translate(0px);
+    animation: float 5s ease-in-out infinite;
 }
 
-.card3{
-    display: flex;
+
+.card3 {
+    margin: 20px;
     width: 300px;
-    background-color: cornflowerblue;
+    height: 500px;
+    background-color: #DEEFE7;
     border-radius: 5%;
-    
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    transform: translate(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.social-icons{
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-facebook:hover {
+    color: #00405e;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1,p{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    padding-top: 30px;
+}
+p{
+    font-weight: small;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+}
+
+button:hover{
+    background-color: #00405e;
+
+}
+
+ @keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    } 
 }
