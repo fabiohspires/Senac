@@ -37,6 +37,9 @@ FLEXBOX
         center: alinha os itens no centro do container
         space-between: distribui os itens igualmente no container
         space-around: space-between com margem dos lados
+
+    Gap, row-gap e column-gap (espaçameto entre as divs com px)
+        gap : 10px (entre as linhas) 30px (entre as colunas)
     
     ==========================================================================
     
@@ -45,6 +48,8 @@ FLEXBOX
     nowrap: não permite quebra de linha
     wrap: quebra a linha assim que um dos itens não couber nela
     wrap-reverse: mesma coisa que o wrap, mas a quenra acontece para a linha de cima
+    Gap, row-gap e column-gap (espaçameto entre as divs com px)
+        gap : 10px (entre as linhas) 30px (entre as colunas)
 </container>
 
 --------------------------------------------------------------------------------------
